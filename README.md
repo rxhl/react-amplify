@@ -4,7 +4,7 @@ Publish React apps to Amplify (demo).
 
 - **Demo (master):** https://master.d340r4z5620hly.amplifyapp.com/
 - **Active PR:** https://github.com/rxhl/react-amplify/pull/2
-- **PR preview:** (Switch to feature branch)
+- **PR preview:** https://pr-2.d340r4z5620hly.amplifyapp.com/
 
 ## Steps
 
@@ -29,3 +29,13 @@ $ amplify add hosting
 ```
 
 Once the app is hosted, you can add PR reviews and feature branch builds from the Amplify console.
+
+```
+# 5. Add auth using AWS Cognito and push the changes
+$ amplify add auth
+$ amplify push
+$ amplify console
+```
+
+Once auth is added, you'd be able to see it in the cosole under the backend tab.
+You may then auth UI components as listed [here](https://docs.amplify.aws/lib/auth/getting-started/q/platform/js#integrate-with-the-front-end).
