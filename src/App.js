@@ -2,9 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import './App.css';
 
-// Amplify
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
-
 const Outer = styled.div`
   height: 100vh;
   width: 100vw;
@@ -27,11 +24,10 @@ const App = () => {
   return (
     <Outer>
       <Inner>
-        <AmplifySignOut />
-        <h2>Hello from master branch!</h2>
+        <h2>Hello from feat branch!</h2>
       </Inner>
     </Outer>
   );
 };
 
-export default withAuthenticator(App);
+export default App;
