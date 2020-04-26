@@ -23,7 +23,7 @@ const Inner = styled.div`
 const App = () => {
   return (
     <Outer>
-      <Inner>Hello from Amplify</Inner>
+      <Inner>Hello from Amplify. This is feature branch.</Inner>
     </Outer>
   );
 };
