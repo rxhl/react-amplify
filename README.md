@@ -4,7 +4,7 @@ Publish React apps to Amplify (demo).
 
 - **Demo (master):** https://master.d340r4z5620hly.amplifyapp.com/
 - **Active PR:** https://github.com/rxhl/react-amplify/pull/2
-- **PR preview:** (Switch to feature branch)
+- **PR preview:**
 
 ## Steps
 
