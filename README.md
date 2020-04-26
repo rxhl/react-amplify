@@ -2,6 +2,10 @@
 
 Publish React apps to Amplify (demo).
 
+- **Demo (master):** https://master.d340r4z5620hly.amplifyapp.com/
+- **Active PR:** https://github.com/rxhl/react-amplify/pull/1
+- **PR preview:** https://pr-1.d340r4z5620hly.amplifyapp.com/
+
 ## Steps
 
 ```
@@ -23,3 +27,5 @@ You can now add hosting and other goodies.
 # 4. Host the app
 $ amplify add hosting
 ```
+
+Once the app is hosted, you can add PR reviews and feature branch builds from the Amplify console.

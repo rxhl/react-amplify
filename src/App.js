@@ -23,7 +23,7 @@ const Inner = styled.div`
 const App = () => {
   return (
     <Outer>
-      <Inner>Hello</Inner>
+      <Inner>Hello from Amplify</Inner>
     </Outer>
   );
 };
