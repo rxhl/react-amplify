@@ -26,8 +26,10 @@ const Inner = styled.div`
 const App = () => {
   return (
     <Outer>
-      <AmplifySignOut />
-      <Inner>Hello from Amplify</Inner>
+      <Inner>
+        <AmplifySignOut />
+        <h3>Hello from master branch!</h3>
+      </Inner>
     </Outer>
   );
 };
