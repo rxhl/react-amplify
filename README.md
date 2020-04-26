@@ -38,4 +38,4 @@ $ amplify console
 ```
 
 Once auth is added, you'd be able to see it in the cosole under the backend tab.
-You may then auth UI components as listed [here](https://docs.amplify.aws/lib/auth/getting-started/q/platform/js#integrate-with-the-front-end).
+You may then integrate auth UI components as listed [here](https://docs.amplify.aws/lib/auth/getting-started/q/platform/js#integrate-with-the-front-end).
