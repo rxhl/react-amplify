@@ -28,7 +28,7 @@ const App = () => {
     <Outer>
       <Inner>
         <AmplifySignOut />
-        <h2>Hello from master branch!</h2>
+        <h2>Hello from demo branch!</h2>
       </Inner>
     </Outer>
   );
